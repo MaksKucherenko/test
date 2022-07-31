@@ -1,10 +1,10 @@
 print ("Введите строку состоящею из цифр!")
-spisok = [] ##список в который заносим элементы которые пройшли проверку 
-stroka = input() ##получаем строку от пользователя
-if stroka.isnumeric(): ##имеет ли строка другие элементы кроме цифр
-    for i in stroka: ##цикл, проходим каждый елемент строки
-        spisok.append(int(i)) ##переносим элемент строки в список
-    print(sum(spisok)) ##сумма списка   
+spisok = [] 
+stroka = input() 
+if stroka.isnumeric(): 
+    for i in stroka: 
+        spisok.append(int(i)) 
+    print(sum(spisok))   
 else:
     print("Строка имеет символы или пробелы. Введите только цифры!")        
 
